@@ -1,0 +1,36 @@
+
+<img class="img1" [src] = "imgPizza">
+<img class="img2" [src] = "imgEllipse"> 
+       
+<div class="Section"> 
+  <div class="Section__intro">
+    <div class="Section__body">
+      <h1 class="title"> {{title}} </h1>
+      <h2> {{subtitle}} </h2>
+      <p> {{text}} </p>
+    </div>
+    <div>
+      <a href="#"><button type="submit">order now</button></a>  
+    </div>
+  </div>
+</div>
+
+<div class="Time">
+  <div class="Time__Section">
+      <img [src]="imgClock">
+      <div class="Time__List">
+        <ul>
+          <li *ngFor="let items of items">
+              <span [style.margin-right.px] ="10">{{items.days}}</span>
+              <span>{{items.hours}}</span>
+          </li>
+        </ul>
+      </div>	
+  </div>
+</div>
+
+
+
+
+
+

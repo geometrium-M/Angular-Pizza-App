@@ -1,0 +1,74 @@
+
+.Services {
+    margin-left: 5%;
+	margin-right: 75%;
+	position: relative;
+
+	&:after {
+		content: '';
+	    width: 200px;
+	    height: 25px;
+	    background: #FFBE41;
+        border-radius: 12px;
+        position: absolute;
+        margin-bottom: -20px;
+        left: 120px;
+	} 
+	
+	img {
+		position: absolute;
+		left: 100px;
+		top: -40px;	
+	}
+}
+
+.Cards {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+    
+	&__items {
+		display: flex;
+	    width: 100%;
+	}	
+		&__item  {
+			border: 1px solid #550312;
+		    border-radius: 20px;
+		    text-align: center;
+		    max-height: 435px;
+		    max-width: 410px;
+		    padding: 50px 40px 50px 40px;
+		    align-self: center;
+	   }
+
+	    &__magnified {
+		    max-height: 560px;
+		    max-width: 520px;
+		    margin: 0 150px 0 150px;
+			padding-left: 95px;
+			padding-right: 95px;
+	    }
+
+	        h1 {
+				font-weight: 500;
+		        font-size: 38px;
+		        line-height: 57px;
+		        color: #550312;
+		         padding-bottom: 15px;
+		         position: relative;
+	        }
+
+			p {
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 27px;
+				color: #333333;
+			}
+
+			img {
+				width: 100px;
+				height: 100px;
+				margin:0;
+			}
+
+}

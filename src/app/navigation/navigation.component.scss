@@ -1,0 +1,31 @@
+
+.nav {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+
+    &__top {
+        width: 100%;
+        
+        ul {
+            display: flex;
+	        align-items: center;
+	        justify-content: space-between;
+            list-style: none;	 
+            margin: 0;
+            padding: 12px;
+            
+            a {
+                text-decoration: none;
+                color: #550312;	
+                font-size: 18px;
+            
+                
+                &:hover {
+                    text-decoration: underline;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}

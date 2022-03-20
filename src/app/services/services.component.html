@@ -1,0 +1,32 @@
+
+<div class="Services">
+    <div class="Services__block">
+        <p class="title">{{name | uppercase }}</p>
+    </div>
+    <img  [src] = "imgLeaves">
+</div>
+
+
+<div class="Cards">
+    <div class="Cards__items">
+        <div class="Cards__item">
+            <img [src] = 'Service1.logo'>
+            <h1> {{Service1.title}}</h1>
+            <p> {{Service1.text}}</p>
+        </div>
+        
+        <div [class]="classes">
+            <img [src] = 'Service2.logo'>
+            <h1> {{Service2.title}}</h1>
+            <p> {{Service2.text}}</p>
+        </div>
+        
+        <div class="Cards__item">
+            <img [src] = 'Service3.logo'>
+            <h1> {{Service3.title}}</h1>
+            <p> {{Service3.text}}</p>
+        </div>
+    </div>
+</div>
+
+
