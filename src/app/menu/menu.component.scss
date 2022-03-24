@@ -1,0 +1,15 @@
+.Menu {
+    margin-left: 5%;
+    margin-right: 83%;
+
+    &:after {
+		content: '';
+	    width: 200px;
+	    height: 25px;
+	    background: #FFBE41;
+        border-radius: 12px;
+        position: absolute;
+        margin-bottom: -20px;
+        left: 120px;
+	} 
+}

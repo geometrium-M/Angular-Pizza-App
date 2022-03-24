@@ -9,6 +9,7 @@ import { ServicesComponent } from './services/services.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { SocialComponent } from './social/social.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { SocialComponent } from './social/social.component';
     NavigationComponent,
     AboutComponent,
     SocialComponent,
+    MenuComponent,
    
   ],
   imports: [
