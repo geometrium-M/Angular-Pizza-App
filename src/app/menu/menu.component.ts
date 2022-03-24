@@ -7,10 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class MenuComponent  {
 
-  name : string = "our menu";
+  imgPrice = 'assets/img/price.svg';
 
-  @Input() public imgCards: string = " ";
-  @Input() public title: string = '';
-  @Input() public text: string = '';
-  @Input() public price: number = 0;
+  @Input() public imgUrl: string = '';
+  @Input() public name: string = '';
+  @Input() public description: string = '';
+  @Input() public price: string = '';
 }

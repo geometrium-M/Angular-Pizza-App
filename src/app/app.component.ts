@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Card} from './menu/cards-interface';
+import { PizzaCard } from './menu/cards';
 
 
 @Component({
@@ -9,8 +11,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'App';
   
-  public imgCard : string = "https://reqres.in/img/faces/9-image.jpg";
-  public Title : string = "titlu";
-  public Text: string = "SomeSubtitle";
-  public Price: number = 10;
+  
+
+  public cards: Card[] = [...PizzaCard];
 }

@@ -2,15 +2,17 @@
 
 <app-navigation></app-navigation>
 
-<!--<router-outlet></router-outlet>-->
+<router-outlet></router-outlet>
 
 <app-social></app-social>
 
-<app-menu
-[imgCards] = "imgCard"
-[title] = "Title"
-[text] = "Text"
-[price] = "Price"
+
+<br>
+
+<app-menu *ngFor = "let card of cards"
+[imgUrl] = "card.imgUrl" 
+[name] = "card.name"
+[description] = "card.description"
+[price] = "card.price"
 ></app-menu>
  
-
