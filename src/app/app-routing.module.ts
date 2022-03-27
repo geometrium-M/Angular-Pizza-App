@@ -5,6 +5,7 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 import { ServicesComponent } from "./services/services.component";
 import  { AboutComponent } from "./about/about.component";
 import  { MenuComponent } from "./menu/menu.component";
+import  {ContactsComponent} from "./contacts/contacts.component";
 
 const routes: Routes = [
     {
@@ -22,6 +23,10 @@ const routes: Routes = [
     {
         path:'menu',
         component: MenuComponent
+    },
+    {
+        path:'contacts',
+        component: ContactsComponent
     },
     {
         path:'**',

@@ -1,5 +1,4 @@
 export interface SocialItem {
-    img: string;
-    
-    
+    img: string;  
+    Url: string;
   }

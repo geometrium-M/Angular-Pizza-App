@@ -1,0 +1,36 @@
+<div class="messageBox">
+    <textarea type="text" placeholder="Leave a message"></textarea>
+</div>
+
+
+<div class="contacts">
+    <div class="box" [style.margin-right.px] = "330">
+        <h1>{{ Address_1.title | uppercase }}</h1>
+        <p>{{ Address_1.address }}</p>
+        <a href="#"><button type="submit">+250 780102030</button></a>
+    </div>
+    
+    <div class="box" [style.margin-right.px] = "140">
+        <h1>{{ Address_2.title }}</h1>
+        <h2>{{ Address_2.subtitle }}</h2>
+        <p>{{ Address_2.address }}</p>
+        <a href="#"><button type="submit">1300</button></a>   
+    </div>
+
+    <ul>
+        <li *ngFor="let nav of nav">     
+             <a [href] ="nav.Url"> 
+                 <img [src] = "nav.img"> 
+            </a>  
+        </li>  
+    </ul> 
+</div>
+
+
+
+
+
+
+
+
+

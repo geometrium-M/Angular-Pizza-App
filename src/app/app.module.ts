@@ -10,6 +10,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { SocialComponent } from './social/social.component';
 import { MenuComponent } from './menu/menu.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { MenuComponent } from './menu/menu.component';
     AboutComponent,
     SocialComponent,
     MenuComponent,
+    ContactsComponent,
    
   ],
   imports: [
