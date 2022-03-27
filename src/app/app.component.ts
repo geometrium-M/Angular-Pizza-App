@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Card} from './menu/cards-interface';
+import { PizzaCard } from './menu/cards';
 
 
 @Component({
@@ -8,4 +10,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'App';
+  
+  
+
+  public cards: Card[] = [...PizzaCard];
 }
