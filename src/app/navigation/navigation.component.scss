@@ -14,18 +14,22 @@
             list-style: none;	 
             margin: 0;
             padding: 12px;
-            
+
             a {
                 text-decoration: none;
                 color: #550312;	
                 font-size: 18px;
-            
-                
+
                 &:hover {
                     text-decoration: underline;
                     cursor:pointer;
                 }
             }
+
+            .nav__active {
+                color: red;
+            }   
         }
     }
 }
+
