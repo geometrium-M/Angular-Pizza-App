@@ -1,13 +1,13 @@
 <div class="nav">
     <nav class="nav__top">
         <ul class="nav__menu">
-           <li><a routerLink="/home">Home</a></li>
-           <li><a routerLink="/about">About us</a></li>
-           <li><a routerLink="/services">Services</a></li>
+           <li><a routerLink="" routerLinkActive="nav__active" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+           <li><a routerLink="/about" routerLinkActive="nav__active">About us</a></li>
+           <li><a routerLink="/services" routerLinkActive="nav__active">Services</a></li>
            <li><img [src]="imgLogo" [style.margin-top.px]="20"></li>
-           <li><a routerLink="/menu">Menu</a></li>
-           <li><a routerLink="/reviews">Reviews</a></li>
-           <li><a routerLink="/contacts">Contacts</a></li>
+           <li><a routerLink="/menu" routerLinkActive="nav__active">Menu</a></li>
+           <li><a routerLink="/reviews" routerLinkActive="nav__active">Reviews</a></li>
+           <li><a routerLink="/contacts" routerLinkActive="nav__active">Contacts</a></li>
         </ul>
     </nav>
 </div>
