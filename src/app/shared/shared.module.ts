@@ -6,7 +6,7 @@ import { SocialComponent } from "./social/social.component";
 import { RouterModule } from "@angular/router";
 
 
-import { HomeComponent } from "../pages/home/home.component";
+
 import { NotFoundComponent } from "../pages/not-found/not-found.component";
 
 
@@ -23,7 +23,7 @@ import { NotFoundComponent } from "../pages/not-found/not-found.component";
         PizzaCardComponent,
         SocialComponent,
 
-        HomeComponent,
+        
        
         
        
@@ -36,7 +36,7 @@ import { NotFoundComponent } from "../pages/not-found/not-found.component";
         
     ],
     exports: [
-        HomeComponent,
+        
         PizzaCardComponent,
         
         
