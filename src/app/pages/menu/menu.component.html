@@ -1,9 +1,17 @@
-<app-pizza-card *ngFor="let pizza of pizzaList"
-     [imgUrl]="pizza.imgUrl"
-     [name]="pizza.name"
-     [description]="pizza.description"
-     [price]="pizza.price"
-></app-pizza-card>
+<div [style.margin-left.%]="5">
+    <p class="title">{{name | uppercase }}</p>
+</div>
+
+    
+
+<div class="pizzaCards">
+    <app-pizza-card *ngFor="let pizza of pizzaList"
+        [imgUrl]="pizza.imgUrl"
+        [name]="pizza.name"
+        [description]="pizza.description"
+        [price]="pizza.price"
+    ></app-pizza-card>
+</div>
 
 
        
