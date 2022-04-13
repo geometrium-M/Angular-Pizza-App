@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { MenuModule } from './pages/menu/menu.module';
+
+
 
 
 
@@ -21,9 +24,11 @@ import { SharedModule } from './shared/shared.module';
     RouterModule,
     AppRoutingModule,
     SharedModule,
-    
+    MenuModule
     
   ],
+
+  
   providers: [],
   bootstrap: [AppComponent]
 })

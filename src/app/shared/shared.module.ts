@@ -1,17 +1,19 @@
 import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 import { NavigationComponent } from "./navigation/navigation.component";
 import { PizzaCardComponent } from "./pizza-card/pizza-card.component";
 import { SocialComponent } from "./social/social.component";
+import { RouterModule } from "@angular/router";
+
 
 import { HomeComponent } from "../pages/home/home.component";
-
-
 import { NotFoundComponent } from "../pages/not-found/not-found.component";
-import { MenuComponent } from "../pages/menu/menu.component";
 
-import { CommonModule } from "@angular/common";
 
-import { RouterModule } from "@angular/router";
+
+
+
+
 
 
 
@@ -26,19 +28,21 @@ import { RouterModule } from "@angular/router";
         
        
         NotFoundComponent,
-        MenuComponent
+       
     ],
     imports: [
         CommonModule,
-        RouterModule
+        RouterModule,
+        
     ],
     exports: [
         HomeComponent,
+        PizzaCardComponent,
         
         
        
         NotFoundComponent,
-        MenuComponent,
+        
 
         NavigationComponent,
     
