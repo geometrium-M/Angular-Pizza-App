@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./pages/home/home.component";
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
-import { ServicesComponent } from "./pages/services/services.component";
+
  
 import { MenuComponent } from "./pages/menu/menu.component";
 
@@ -19,7 +19,7 @@ const routes: Routes = [
     },
     {
         path:'services',
-        component: ServicesComponent
+        loadChildren: () => import ('./pages/services/services/services.module').then(m=>m.ServicesModule)
     },
     {
         path:'menu',

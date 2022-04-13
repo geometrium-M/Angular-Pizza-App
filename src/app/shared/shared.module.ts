@@ -6,7 +6,6 @@ import { SocialComponent } from "./social/social.component";
 import { HomeComponent } from "../pages/home/home.component";
 
 
-import { ServicesComponent } from "../pages/services/services.component";
 import { NotFoundComponent } from "../pages/not-found/not-found.component";
 import { MenuComponent } from "../pages/menu/menu.component";
 
@@ -25,7 +24,7 @@ import { RouterModule } from "@angular/router";
         HomeComponent,
        
         
-        ServicesComponent,
+       
         NotFoundComponent,
         MenuComponent
     ],
@@ -37,7 +36,7 @@ import { RouterModule } from "@angular/router";
         HomeComponent,
         
         
-        ServicesComponent,
+       
         NotFoundComponent,
         MenuComponent,
 
