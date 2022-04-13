@@ -4,8 +4,8 @@ import { HomeComponent } from "./pages/home/home.component";
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
 import { ServicesComponent } from "./pages/services/services.component";
  
-import { MenuComponent } from "./pages/menu/menu.component"
-import { ContactsComponent } from "./pages/contacts/contacts.component"
+import { MenuComponent } from "./pages/menu/menu.component";
+
 
 const routes: Routes = [
     {
@@ -27,7 +27,7 @@ const routes: Routes = [
     },
     {
         path:'contacts',
-        component: ContactsComponent
+        loadChildren: () => import ('./pages/contacts/contacts/contacts.module').then(m=>m.ContactsModule)
     },
     {
         path:'**',
