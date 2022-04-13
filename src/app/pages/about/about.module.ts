@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AboutRoutingModule } from './about-routing.module';
 import { RouterModule } from '@angular/router';
 
-import { AboutComponent } from '../about.component';
+import { AboutComponent } from './about.component';
 
 
 @NgModule({

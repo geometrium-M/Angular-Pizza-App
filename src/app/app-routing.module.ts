@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { HomeComponent } from "./pages/home/home.component";
+
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
 
  
@@ -15,7 +15,7 @@ const routes: Routes = [
     
     {
         path:'about',
-        loadChildren: () => import('./pages/about/about/about.module').then(m=>m.AboutModule)
+        loadChildren: () => import('./pages/about/about.module').then(m=>m.AboutModule)
     },
     {
         path:'services',
@@ -23,7 +23,7 @@ const routes: Routes = [
     },
     {
         path:'menu',
-        component: MenuComponent
+        loadChildren: () => import ('./pages/menu/menu.module').then(m=>m.MenuModule)
     },
     {
         path:'contacts',

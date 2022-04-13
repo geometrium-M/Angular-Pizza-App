@@ -1,7 +1,7 @@
-.messageBox {
+.rewiews {
     margin-top: 2%;
     margin-left: 5%;
-    textarea {
+    &__box {
         background: #FFFDF1;
         border: 1px solid #D3D3D3 ;
         border-radius: 60px;
@@ -25,7 +25,7 @@
     display: flex;
     margin: 20px 100px 100px 225px;
 
-    .box {
+    &__box {
         max-width: 560px;
         position: relative;
     
@@ -44,6 +44,7 @@
 
         h1 {
             font-size: 43px;
+            font-weight: 400;
             line-height: 64px;
             color: #550312;
             padding-bottom: 90px;
@@ -54,7 +55,8 @@
             font-size: 24px;
             line-height: 36px;
             color: #000000;
-            padding:0 0 96px 0;
+            padding: 0;
+            margin: 0;
         }
 
         button {
@@ -69,20 +71,13 @@
             color: #804D4D;
         
             padding: 28.5px 50px 28.5px 50px;
+            margin: 40px 0 0 200px;   
         }
 
-        a {
-            padding-left: 220px;
-        }
+        
     }
 
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-left: 0;    
-    }
+  
 }
 
 
