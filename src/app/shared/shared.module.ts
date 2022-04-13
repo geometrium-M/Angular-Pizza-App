@@ -4,7 +4,7 @@ import { PizzaCardComponent } from "./pizza-card/pizza-card.component";
 import { SocialComponent } from "./social/social.component";
 
 import { HomeComponent } from "../pages/home/home.component";
-import { AboutComponent } from "../pages/about/about.component";
+
 import { ContactsComponent } from "../pages/contacts/contacts.component";
 import { ServicesComponent } from "../pages/services/services.component";
 import { NotFoundComponent } from "../pages/not-found/not-found.component";
@@ -23,7 +23,7 @@ import { RouterModule } from "@angular/router";
         SocialComponent,
 
         HomeComponent,
-        AboutComponent,
+       
         ContactsComponent,
         ServicesComponent,
         NotFoundComponent,
@@ -35,7 +35,7 @@ import { RouterModule } from "@angular/router";
     ],
     exports: [
         HomeComponent,
-        AboutComponent,
+        
         ContactsComponent,
         ServicesComponent,
         NotFoundComponent,

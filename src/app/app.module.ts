@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +23,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    
     
   ],
   providers: [],

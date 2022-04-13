@@ -1,9 +1,9 @@
 
 <div class="social">    
     <ul>
-        <li *ngFor="let nav of nav">     
-             <a [href] ="nav.Url"> 
-                 <img [src] = "nav.img"> 
+        <li *ngFor="let link of socialLinks">     
+             <a [href] ="link.url"> 
+                 <img [src] = "link.img"> 
             </a>  
         </li>  
     </ul>   
