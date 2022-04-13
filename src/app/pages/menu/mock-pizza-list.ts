@@ -1,6 +1,6 @@
-import {Card} from './cards-interface';
+import {Pizza} from './pizza-interface';
 
-export const PizzaCard: Card[] = [
+export const MockPizzaList: Pizza[] = [
     {
         imgUrl: 'assets/img/pizza1.svg',
         name: "DETROIT PIZZA",

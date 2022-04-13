@@ -1,6 +1,5 @@
 import { Component} from '@angular/core';
-import { SocialItem } from '../social/socialNav';
-import { Nav } from '../social/Nav';
+
 
 
 
@@ -34,7 +33,6 @@ export class ContactsComponent {
   }
 
 
-  nav = Nav;
 
 
 }
