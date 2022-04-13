@@ -10,7 +10,8 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { AboutComponent } from './pages/about/about.component'; 
 import { SocialComponent } from './shared/social/social.component'; 
 import { MenuComponent } from './pages/menu/menu.component'; 
-import { ContactsComponent } from './pages/contacts/contacts.component'; 
+import { ContactsComponent } from './pages/contacts/contacts.component';
+import { PizzaCardComponent } from './shared/pizza-card/pizza-card.component'; 
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
     SocialComponent,
     MenuComponent,
     ContactsComponent,
+    PizzaCardComponent,
    
   ],
   imports: [

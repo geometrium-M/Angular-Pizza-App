@@ -1,11 +1,9 @@
-<div class="card"> 
-    <div class="card__item"> 
-        <img [src] = "imgUrl">
-        <h1> {{ name }}  </h1>
-        <p> {{ description }} </p>
-        <h2> {{ price }} </h2>     
-    </div>
-</div>
+<app-pizza-card *ngFor="let pizza of pizzaList"
+     [imgUrl]="pizza.imgUrl"
+     [name]="pizza.name"
+     [description]="pizza.description"
+     [price]="pizza.price"
+></app-pizza-card>
 
 
        

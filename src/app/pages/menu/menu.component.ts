@@ -1,4 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
+import { Pizza } from './pizza-interface';
+import { MockPizzaList } from './mock-pizza-list';
 
 @Component({
   selector: 'app-menu',
@@ -7,10 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class MenuComponent  {
 
-  imgPrice = 'assets/img/price.svg';
-
-  @Input() public imgUrl: string = '';
-  @Input() public name: string = '';
-  @Input() public description: string = '';
-  @Input() public price: string = '';
+  public pizzaList: Pizza[] = [...MockPizzaList];
 }
