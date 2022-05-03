@@ -9,6 +9,12 @@ export class NavigationComponent  {
 
   imgLogo: string = 'assets/img/logo.svg';
 
- 
+  constructor() {}
+
+  public toggleMobileMenu(): any {
+    document.querySelector('#burger')?.classList.toggle('active');
+    document.querySelector('#menu')?.classList.toggle('active');
+    
+  }
 
 }

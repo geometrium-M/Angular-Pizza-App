@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { ServicesComponent } from '../services.component';
 
 
+
+
 @NgModule({
   declarations: [
     ServicesComponent
@@ -14,7 +16,8 @@ import { ServicesComponent } from '../services.component';
   imports: [
     CommonModule,
     ServicesRoutingModule,
-    RouterModule
+    RouterModule,
+    
   ]
 })
 export class ServicesModule { }

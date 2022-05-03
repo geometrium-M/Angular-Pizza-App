@@ -1,20 +1,66 @@
 
-.social {
-    width: 30%;
-    position: fixed;
-    bottom: 3%;
-    margin-right: 10%;
-	margin-left: 55%;
 
-     
-    
+   
+
+   
+
+    .social {
+        margin: 0 5% 5% 50%;
+        
+        
         ul {
+            display: flex;
+            
+            justify-content: space-between;
+            
             list-style: none;
             padding-left: 0;
             margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+
+            @media (max-width:1024px) {
+                display: inline;  
+                position: fixed;
+                top: 20%;
+                right: 5%;
+    
+                
+            }
+
+            @media (max-width:769px) {
+               
+                    
+            }
+
+            
+
+          
+
+            img {
+                @media (max-width:769px) {
+                    width: 60px;
+                    
+                }
+                
+            }
+            
+
+            @media (max-width:576px) {
+
+                
+                
+       
+        
+            }
+            li {
+                @media (max-width:1024px) {
+                    padding-top:25%;
+                    
+                    
+                    
+                    
+                }
+            }
+            
        
             li:hover {	
                 filter: invert(0.7) sepia(3);  
@@ -23,4 +69,6 @@
         }
     
         
-}
+
+    }
+

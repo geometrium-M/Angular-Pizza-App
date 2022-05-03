@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about.component';
 
 
+
 @NgModule({
   declarations: [
     AboutComponent

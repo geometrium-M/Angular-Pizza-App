@@ -1,21 +1,25 @@
-<div class="aboutUs">
+<div class="about-title">
     <div class="title"> {{ name | uppercase}} </div>
 </div>
 
-
-
-    <div class="firstBox">   
-        <img [src] = "imgEllipse" class="img1">
-        <img [src] = "imgPizza1" class="img2">
+<div class="Box">
+    <div class="Box__first">  
+        <img [src]="imgEllipse" class="img1">
+        <img [src]="imgPizza1" class="img2">
         <p>{{ text }}</p>
     </div>
     
     
-    <div class="secondBox">
+    <div class="Box__second">
         <p>{{ text }}</p>
-        <img [src] = "imgEllipse" class="img3">
-        <img [src] = "imgPizza2" class="img4">	
+        <img [src]="imgEllipse" class="img3">
+        <img [src]="imgPizza2" class="img4">	
     </div>
+
+</div>
+
+
+    
 
 
 

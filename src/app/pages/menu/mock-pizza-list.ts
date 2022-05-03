@@ -3,49 +3,49 @@ import {Pizza} from './pizza-interface';
 export const MockPizzaList: Pizza[] = [
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "DETROIT PIZZA",
+        name: "DETROIT",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "KIGALI PIZZA",
+        name: "KIGALI",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "PEPPERONI PIZZA",
+        name: "PEPPERONI",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "MARGARITA PIZZA",
+        name: "MARGARITA",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "CHICKEN PIZZA",
+        name: "CHICKEN",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "CRUNCHY PIZZA",
+        name: "CRUNCHY",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "GREEK PIZZA",
+        name: "GREEK",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     },
     {
         imgUrl: 'assets/img/pizza1.svg',
-        name: "BEEF PIZZA",
+        name: "BEEF",
         description: "Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare ",
         price: "15k"
     }
