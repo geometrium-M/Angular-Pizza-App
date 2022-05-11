@@ -20,7 +20,11 @@
                 <span></span>
             </div>
 
-            <nav class="header__menu" id="menu">
+            <div>
+                <img [src]="imgLogo">
+            </div>
+
+            <nav class="header__menu" id="menu" (click)="closeMobileMenu()">
                 <ul class="header__list">
                     
                     <li>
@@ -33,7 +37,7 @@
                         <a routerLink="/services" routerLinkActive="nav__active">Services</a>
                     </li>
                    
-                    <li><img [src]="imgLogo" [style.padding-top.px]="20"></li>
+                    
                     
                     <li>
                         <a routerLink="/menu" routerLinkActive="nav__active" >Menu</a>
