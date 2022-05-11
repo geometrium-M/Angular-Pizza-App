@@ -1,8 +1,27 @@
 
 .Services {
+	margin-top: 10%;
     margin-left: 5%;
-	margin-right: 75%;
+	
 	position: relative;
+
+	@media (max-width: 1440px) {
+		margin-top: 12%;	
+	}
+
+	p {
+		margin: 0;
+
+		@media (max-width: 1440px) {
+			font-size: 36px;
+		}
+		@media (max-width: 1024px) {
+			font-size: 30px;
+		}
+		@media (max-width: 769px) {
+			display: none;	
+		}
+    }
 
 	&:after {
 		content: '';
@@ -11,64 +30,127 @@
 	    background: #FFBE41;
         border-radius: 12px;
         position: absolute;
-        margin-bottom: -20px;
-        left: 120px;
+        bottom: -60px;
+        left: 90px;
+
+		@media (max-width: 1200px) {
+			height: 20px;	
+		}
+
+		@media (max-width: 1024px) {
+			bottom: -30px;
+			width: 150px;
+			height: 15px;	
+		}
+
+		@media (max-width: 992px) {
+			display: none;	
+		}
 	} 
+	    
 	
 	img {
 		position: absolute;
-		left: 100px;
-		top: -40px;	
+		left: 150px;
+		top: -50px;	
+		width: 320px;
+
+		@media (max-width: 1440px) {
+			width: 300px;	
+		}
+
+		@media (max-width: 1200px) {
+			width: 280px;	
+		}
+
+
+
+		@media (max-width: 1024px) {
+			display: none;
+		}	
 	}
 }
 
 .Cards {
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 10%;
+	margin-top: 7%;
     
 	&__items {
 		display: flex;
 	    width: 100%;
-	}	
-		&__item  {
-			border: 1px solid #550312;
-		    border-radius: 20px;
-		    text-align: center;
-		    max-height: 435px;
-		    max-width: 410px;
-		    padding: 50px 40px 50px 40px;
-		    align-self: center;
-	   }
 
-	    &__magnified {
-		    max-height: 560px;
-		    max-width: 520px;
-		    margin: 0 150px 0 150px;
-			padding-left: 95px;
-			padding-right: 95px;
-	    }
+		@media (max-width: 1440px) {
+			display: block;	
+		}
 
-	        h1 {
-				font-weight: 500;
-		        font-size: 38px;
-		        line-height: 57px;
-		        color: #550312;
-		         padding-bottom: 15px;
-		         position: relative;
-	        }
+		@media (max-width: 769px) {
+			margin-top: 20%;	
+		}
 
-			p {
-				font-weight: 500;
+		@media (max-width: 576px) {
+			margin-top: 25%;	
+		}
+	}
+	
+	&__item  {
+		border: 1px solid #550312;
+		border-radius: 20px;
+		text-align: center;
+		width: 35%;
+		padding: 4%;
+		margin: 2% 0 ;
+
+		@media (max-width: 1440px) {
+			width: 100%;
+		}
+
+		img { 
+			width: 100px;
+			max-width: 100%;
+			margin:0;
+
+			@media (max-width: 1024px) {
+				width: 80px;
+			}
+		}
+
+		h1 {
+			font-weight: 500;
+			font-size: 38px;
+			line-height: 50px;
+			color: #550312;
+			padding: 25px 0;
+			margin: 0;
+
+			@media (max-width: 1024px) {
+				font-size: 24px;
+			}	 
+		}
+
+		p {
+			
+			font-size: 24px;
+			line-height: 36px;
+			color: #333333;
+			padding: 0;
+			margin: 0;
+
+			@media (max-width: 769px) {
 				font-size: 18px;
-				line-height: 27px;
-				color: #333333;
 			}
+		}	
+   }
 
-			img {
-				width: 100px;
-				height: 100px;
-				margin:0;
-			}
+	   &__magnified {
+		width: 60%;
+		padding: 7%;
+		margin: 0 100px;
 
+		@media (max-width: 1440px) {
+			margin: 0;
+			width: 100%;
+			
+		}
+	}      
 }

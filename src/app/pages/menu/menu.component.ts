@@ -9,5 +9,7 @@ import { MockPizzaList } from './mock-pizza-list';
 })
 export class MenuComponent  {
 
+  public name: string ="our menu";
+
   public pizzaList: Pizza[] = [...MockPizzaList];
 }

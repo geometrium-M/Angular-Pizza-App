@@ -5,7 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { MenuModule } from './pages/menu/menu.module';
+
+
+import { HomeComponent } from './pages/home/home.component';
+
 
 
 
@@ -13,7 +16,8 @@ import { MenuModule } from './pages/menu/menu.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
     
  
     
@@ -24,7 +28,7 @@ import { MenuModule } from './pages/menu/menu.module';
     RouterModule,
     AppRoutingModule,
     SharedModule,
-    MenuModule
+    
     
   ],
 

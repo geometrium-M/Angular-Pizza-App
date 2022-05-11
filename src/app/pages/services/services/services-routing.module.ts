@@ -4,7 +4,7 @@ import { ServicesComponent } from '../services.component';
 
 const routes: Routes = [
   {
-    path:'services',
+    path:'',
     component: ServicesComponent
 },
 ];

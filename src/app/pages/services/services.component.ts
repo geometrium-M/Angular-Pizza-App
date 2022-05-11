@@ -22,7 +22,7 @@ export class ServicesComponent  {
   Service2: ServiceDescription = {
     logo: 'assets/img/delivery.svg',
     title: 'Fast food',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper    arcu facilisis ornare suspendisse. Eget at tincidunt neque sapien enim tristique eu.'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare suspendisse. Eget at tincidunt neque sapien enim tristique eu.'
   }
 
   Service3: ServiceDescription = {
