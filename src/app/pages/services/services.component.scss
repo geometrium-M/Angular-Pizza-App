@@ -8,15 +8,19 @@
 	@media (max-width: 1440px) {
 		margin-top: 12%;	
 	}
+	@media (max-width: 1024px) {
+		margin-top: 8%;
+			
+	}
 
-	p {
+	.title {
 		margin: 0;
 
 		@media (max-width: 1440px) {
-			font-size: 36px;
+			font-size: 30px;
 		}
 		@media (max-width: 1024px) {
-			font-size: 30px;
+			font-size: 25px;
 		}
 		@media (max-width: 769px) {
 			display: none;	
@@ -33,17 +37,12 @@
         bottom: -60px;
         left: 90px;
 
+		@media (max-width: 1400px) {
+			height: 15px;
+			bottom: -40px;	
+		}
+
 		@media (max-width: 1200px) {
-			height: 20px;	
-		}
-
-		@media (max-width: 1024px) {
-			bottom: -30px;
-			width: 150px;
-			height: 15px;	
-		}
-
-		@media (max-width: 992px) {
 			display: none;	
 		}
 	} 
@@ -52,21 +51,11 @@
 	img {
 		position: absolute;
 		left: 150px;
-		top: -50px;	
-		width: 320px;
+		top: -35px;	
+		width: 300px;
 
-		@media (max-width: 1440px) {
-			width: 300px;	
-		}
-
-		@media (max-width: 1200px) {
-			width: 280px;	
-		}
-
-
-
-		@media (max-width: 1024px) {
-			display: none;
+		@media (max-width: 1400px) {
+			display: none;	
 		}	
 	}
 }
@@ -74,7 +63,16 @@
 .Cards {
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 7%;
+	margin-top: 5%;
+
+	@media (max-width: 996px) {
+		margin-top: 5%;	
+	}
+
+	@media (max-width: 576px) {
+		margin-top: 25%;	
+	}
+
     
 	&__items {
 		display: flex;
@@ -103,6 +101,7 @@
 
 		@media (max-width: 1440px) {
 			width: 100%;
+			margin-bottom: 5%;
 		}
 
 		img { 
@@ -111,7 +110,10 @@
 			margin:0;
 
 			@media (max-width: 1024px) {
-				width: 80px;
+				width: 80px
+			}
+			@media (max-width: 667px) {
+				width: 60px;
 			}
 		}
 
@@ -130,14 +132,19 @@
 
 		p {
 			
-			font-size: 24px;
+			font-size: 20px;
 			line-height: 36px;
 			color: #333333;
 			padding: 0;
 			margin: 0;
 
+			@media (max-width: 1200px) {
+				font-size: 18px;	
+			}
+	
+
 			@media (max-width: 769px) {
-				font-size: 18px;
+				font-size: 16px;
 			}
 		}	
    }
