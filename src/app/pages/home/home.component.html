@@ -7,10 +7,29 @@
         <div class="Section__body">
           <h1 class="title"> {{title}} </h1>
           <h2> {{subtitle}} </h2>
-          <p> {{text}} </p>
+
+
+          <p class="text"> {{text}} </p>
+          <span class="showMore">{{textMore}}</span> 
+          <button *ngIf="isVisible" (click)="showHide()" class="showClick">hide △</button>
+          <button *ngIf="!isVisible" (click)="showHide()" class="showClick">show more info ▽  </button>
+
+
+
+          
+          
+          
+
+          <ng-container *ngIf="isVisible">
+            <p class="showText"> {{text}}</p>
+          </ng-container>
+
+
+
+
         </div>
         <div>
-          <a href="#"><button type="submit">order now</button></a>  
+          <a href="#"><button class="orderBtn" type="submit">order now</button></a>  
         </div>
         <img class="img1" [src] = "imgPizza">
         <img class="img2" [src] = "imgEllipse">
