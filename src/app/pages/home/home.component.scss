@@ -1,5 +1,4 @@
 
-
 .Home-page {
     margin-left: 5%;
     margin-right: 5%;
@@ -21,27 +20,25 @@
 
             @media (max-width:576px) {
                 margin-top: 25%;
-            }  
-            
+            }      
         }
         
         &__body {
     
             h1 {
                 margin: 0;
+                font-size:30px;
                 
                 @media (max-width:1440px) {
-                    font-size: 36px;
+                    
                 } 
             }
            
             h2 {
                 font-weight: 500;
-                font-size: 38px;
-                line-height: 57px;
+                font-size: 24px;
                 color: #333333;
-                margin: 0;
-                padding: 20px 0 70px 0;
+                margin: 5% 0;
                 
                 @media (max-width:1440px) {
                     font-size: 24px;
@@ -50,11 +47,9 @@
             }
     
             .text {
-                font-size: 24px;
-                line-height: 36px;
+                font-size: 16px;
                 color: #333333;
-                margin: 0;
-                padding-right: 10%;   
+                margin: 10% 10% 5% 0;
                 
                 @media (max-width:1024px) {
                    width: 85%;       
@@ -65,16 +60,17 @@
             }
         }
         .orderBtn {
-            width: 230px;
-            height: 100px;
+            width: 150px;
+            height: 80px;
             border-radius: 50px;
-            padding: 30px;
-            font-size: 30px;
+            padding: 15px;
+            font-size: 20px;
             background-color: #550312;
             color: white;
             border: 1px solid #FFFDF1;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);   
             margin-top: 220px;
+            margin-right: 25px;
             
 
             @media (max-width:1440px) {
@@ -88,12 +84,12 @@
                 right: 40%;    
             }
 
-
             @media (max-width:769px) {
                 width: 190px;
                 height: 80px;
                 padding: 15px;
-                font-size: 24px;     
+                font-size: 24px;  
+                margin: 30% auto;   
             }
                 &:hover {
                     background-color: #FFEBBE;
@@ -105,10 +101,11 @@
         .img2 {
             position: relative;
             max-width: 100%;
-            width: 40%;
-            height: 40%;
+            width: 30%;
+            height: 30%;
             z-index: 1;
             filter: drop-shadow(0px 4px 50px rgba(159, 62, 62, 0.23));
+            margin-top: 2%;
 
             @media (max-width: 1440px) {
                 max-width: 500px;   
@@ -122,9 +119,10 @@
        
        .img1 { 
            position: absolute;
-           right: 40px;
+           right: 30px;
            z-index: 2;
-           max-width: 32%;   
+           max-width: 25%; 
+           margin-top: 2%;  
 
           
            @media (max-width:1024px) {
@@ -135,7 +133,7 @@
 }
 
 .Section__two {
-    margin-top: 5%;
+   
     margin-left: 5%;
     display: flex;
 
@@ -145,27 +143,19 @@
 
     @media (max-width:769px) {
         display: none;
-    }  
-
+    } 
     
-
         ul {
+            width: 200px;
             list-style: none;
             padding: 0;
-            margin-left: 10px;
-           
-	    
+            margin-left: 30px;
+
             li {
                 font-weight: 600;
-                font-size: 18px;
-                line-height: 27px;
+                font-size: 12px;
                 color: #333333;
-                padding-bottom: 15px;
-
-                @media (max-width:769px) {
-                    font-size: 16px;
-                    padding-bottom: 0;
-                }
+                padding-bottom: 10px;
             }
         } 
 }
