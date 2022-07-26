@@ -11,8 +11,9 @@
 
           <p class="text"> {{text}} </p>
           <span class="showMore">{{textMore}}</span> 
-          <button *ngIf="isVisible" (click)="showHide()" class="showClick">hide △</button>
-          <button *ngIf="!isVisible" (click)="showHide()" class="showClick">show more info ▽  </button>
+          
+          <button *ngIf="isVisible" (click)="showHide()" class="showClick"> hide △ </button>
+          <button *ngIf="!isVisible" (click)="showHide()" class="showClick">show more info ▽</button>
 
 
 

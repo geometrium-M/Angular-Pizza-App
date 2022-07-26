@@ -12,16 +12,15 @@
 
     h1{
         text-align: center;
-        font-size: 45px;
+        font-size: 35px;
         text-transform: uppercase; 
 
         
         @media (max-width: 1024px) {
-            font-size: 40px;  
+            font-size: 30px;  
         }
         @media (max-width: 768px) {
             display: none;
-  
         }
     }    
 }
@@ -29,11 +28,9 @@
 .contacts {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2%;
+    
     flex: 1 1 auto;
-    @media (max-width: 768px) {
-        margin-top: 5%;
-    }
+   
 
     .contacts__Info {
         width: 100%;
@@ -44,8 +41,10 @@
             display: block;
         }
         @media (max-width: 768px) {
-            padding-top: 7%;
-  
+            margin-top: 10%;
+        }
+        @media (max-width: 576px) {
+            margin-top: 25%;
         }
 
         .contacts__box {
@@ -139,6 +138,8 @@
         }
     }   
 }
+
+
 
 
 

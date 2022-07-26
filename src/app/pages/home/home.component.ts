@@ -24,7 +24,7 @@ export class HomeComponent  {
 
   
   
-  isVisible: boolean = true;
+  isVisible: boolean = false;
 
    showHide() {
     this.isVisible = !this.isVisible;
