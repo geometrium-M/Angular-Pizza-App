@@ -1,25 +1,26 @@
 
 .about-title {
 	margin-left: 5%;
-    padding-top: 10%; 
+    margin-top: 7%;
+    
+
+    @media (max-width: 677px) {
+        margin-top: 12%;      
+    } 
+
+    @media (max-width: 576px) {
+        margin-top: 15%;      
+    }
     
     .title {
-        @media (max-width: 1200px) {
-            font-size: 35px;
-                
+        font-size: 30px;
+        @media (max-width: 1400px) {
+            font-size: 25px;        
         } 
-        @media (max-width: 769px) {
-            font-size: 30px;
-            padding-top: 5%;   
-        }
-
-        @media (max-width: 677px) {
-            font-size: 25px; 
-            padding-top: 12%; 
-        }
- 
-
-
+        @media (max-width: 768px) {
+            font-size: 20px;  
+            padding-top: 5%;      
+        } 
     }  
 }
   
@@ -34,26 +35,28 @@
         
         .img1 {
             position: relative;
-            width: 370px;
-            height: 370px;
+            width: 280px;
+            height: 280px;
             max-width: 100%;
         } 
         .img2 {
             position: absolute;
             z-index: 1;
-            top: 10%;
+            top: 40px;
             left: 40px;
+            width: 220px;
+            height: 220px;
             max-width: 100%;
         }
         &:before {
             content:'';
-            width: 25px;
+            width: 20px;
             height: 200px;
             border-radius: 12px;
             background-color: #FFBE41;
             position: absolute;
             margin-left: -3%;
-            bottom: 25%;
+            bottom: 20%;
         }
     }
    
@@ -64,28 +67,30 @@
         
         .img3 {
             position: relative;
-            width: 370px;
-            height: 370px;
+            width: 280px;
+            height: 280px;
             max-width: 100%;    
         } 
     
         .img4 {
             position: absolute;
+            width: 220px;
+            height: 220px;
             max-width: 100%;
             z-index: 1;
-            right: 10px;
-            top: 10%;    
+            right: 15px;
+            top: 40px;    
         }
 
         &:after {
             content:'';
-            width: 25px;
+            width: 20px;
             height: 200px;
             border-radius: 12px;
             background-color: #FFBE41;
             position: absolute;
             right: -5%;
-            bottom: 25%;
+            bottom: 20%;
         }
     }
 }
@@ -93,19 +98,13 @@
 p {
     margin: 0;
     padding: 5%;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
     color: #333333;
 
-    @media (max-width: 1200px) {
-        font-size: 18px;
-        
+    @media (max-width: 768px) {
+        font-size: 14px;        
     }
 }
-
-
-
-
 
 @media (max-width: 1200px) {
 

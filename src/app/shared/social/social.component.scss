@@ -1,74 +1,44 @@
-
-
-   
-
-   
-
-    .social {
-        margin: 0 5% 5% 50%;
+.wrapper {
+    position: fixed;
+    width: 40%;
+    right: 5%;
+    bottom: 5%;
         
-        
-        ul {
-            display: flex;
-            
-            justify-content: space-between;
-            
-            list-style: none;
-            padding-left: 0;
-            margin: 0;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
 
             @media (max-width:1024px) {
                 display: inline;  
                 position: fixed;
                 top: 20%;
                 right: 5%;
-    
-                
             }
-
-            @media (max-width:769px) {
-               
-                    
-            }
-
-            
-
-          
 
             img {
-                @media (max-width:769px) {
-                    width: 60px;
-                    
-                }
-                
+                width: 60px;
+                @media (max-width:1024px) {
+                    width: 50px;    
+                }    
             }
             
-
-            @media (max-width:576px) {
-
-                
-                
-       
-        
-            }
             li {
                 @media (max-width:1024px) {
-                    padding-top:25%;
-                    
-                    
-                    
-                    
+                    padding-top:40%;
+                    margin-top: 30%;    
                 }
             }
             
-       
             li:hover {	
                 filter: invert(0.7) sepia(3);  
                 cursor: pointer; 
             }
         }
-    
-        
-
     }
+
+    
+
 
